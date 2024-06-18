@@ -135,7 +135,7 @@ for i in range(0,len(list1),1):
     if list1[i]==string:
         count+=1
 print("your list:",list1)
-print(string,"occured",count,"times.")
+print(string,"occurred",count,"times.")
 '''
 #ques 22
 '''
@@ -154,17 +154,17 @@ print("min number:",list1[0])
 '''
 x=input("enter f for fahrenheit & c for celsius:")
 if x=="f":
-    temp1=int(input("enter temprature (in fahrenheit):"))
+    temp1=int(input("enter temperature (in fahrenheit):"))
     celsius=((temp1-32)*5)/9
-    print("temprature in degree celsius:",celsius)
+    print("temperature in degree celsius:",celsius)
 elif x=="c":
-    temp2=int(input("enter temprature (in celsius):"))
+    temp2=int(input("enter temperature (in celsius):"))
     fah=((temp2*9)/5)+32
-    print("temprature in degree celsius:",fah)
+    print("temperature in degree celsius:",fah)
 '''
 
 #ques 24
-
+'''
 num1=int(input("enter first number:"))
 num2=int(input("enter second number:"))
 op=input("enter (+,-,*,/):")
@@ -178,6 +178,7 @@ elif op=="/":
     print("division:",num1/num2)
 else:
     print("invalid input")
+'''
 
 #ques 27
 '''
